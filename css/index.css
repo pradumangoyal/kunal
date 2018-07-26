@@ -1,0 +1,80 @@
+
+/* site variables*/
+
+#primary.button{
+    background-color: #78BEFF !important;    
+}
+#primary.button.basic{
+       stroke: solid;
+       color:#78BEFF !important;
+       background-color: transparent  !important;
+       box-shadow: 0 0 0 1px #78BEFF inset !important;
+       border-color: #eeeeee !important;
+}
+
+/* Custom CSS */
+#home{
+    position: relative;
+    height: 38.4375em;
+    z-index: 2;
+    background: radial-gradient(1088.88px at 67.43% 75.47%, rgba(234, 246, 252, 0) 0%, #EBF5FA 100%);
+}
+.group{
+    float: right;
+    margin-top: 15px;
+}
+nav{
+    transition-duration: 0.5s;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color transparent;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 0.75em;
+    color: #333333 !important;
+}
+.sticky{
+    background-color: white;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    padding: 0;
+    width: 100vw;
+    transition-duration: 0.5s;
+}
+.home{
+    margin-right: 2.25em !important;
+}
+.resume{
+    margin-right: 1.025em !important;
+    margin-left: 2.425em !important;
+}
+.content{
+    margin: 16px;
+}
+.section{
+    height: 100vh;
+}
+#me{
+    position: absolute;
+    width: 25.875em;
+    height: 35.5625em; 
+    z-index: 2;
+    bottom: -6.7625em;
+    right: 12.0625em;
+    }
+#about{
+    position: relative;
+    background-color: red;
+    height: 100vh;
+    z-index: 3;
+}

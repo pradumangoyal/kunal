@@ -1,0 +1,62 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kunal Satpal</title>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Full Page js-->
+   
+    <!-- Ed Full PAge JS-->
+    <!--Semantic & Custom CSS + JS-->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/easings.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/scrolloverflow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
+    <!--End-->
+</head>
+<body>
+    <div id="home">
+        <nav id="navbar">
+            <div class="ui container">
+                <li>
+                    <a href="#home"><img src="./images/logo.svg" class="logo ui middle aligned image"></a>
+                    <span class="group">
+                        <a href="#home" class="home"><span>HOME</span></a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#resume"><button class="ui basic button primary resume" id="primary">RESUME</button></a>
+                        <a href="mailto:pgoyal@ma.iitr.ac.in"><button class="ui button primary" id="primary">MAIL ME</button></a>
+                    </span>
+                </li>
+            </div>
+        </nav>
+        <img src="./images/me.svg" id="me">
+        </div>
+        <div id="about">
+            
+        </div>
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+            console.log(sticky+" "+window.pageYOffset);
+          if (window.pageYOffset > sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>   
+</body>
+</html>
