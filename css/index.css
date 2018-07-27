@@ -175,3 +175,41 @@ nav a{
     display: flex !important;
     justify-content: center;
 }
+.fun{
+    width: 23em !important;
+    height: 7.8125em !important;
+    top: 37.125em !important;
+}
+.funimage{
+    position: absolute;
+    right: 12.125em;
+    top: 36.75em;
+    width: 43em;
+    height: 20em;
+}
+
+.people{
+    position: absolute;
+    width: 27.25em;
+    height: 9.875em;
+    top: 61.125em !important;
+    left: 46.375em !important;
+}
+.people #aboutmeheader{
+    width: 18.625em;
+    height: 4.125em;
+    margin: 0;
+    color: #000000;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    line-height: 1.875em;
+}
+.people #aboutmedesc{
+    width: 27.25em !important;
+    height: 4.6875em !important;
+    font-size: 0.9em !important;
+    margin-top: -7em !important;
+    text-align: left;
+}
