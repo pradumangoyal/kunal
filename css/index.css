@@ -14,6 +14,7 @@
 
 /* Custom CSS */
 #home{
+    overflow: hidden;
     position: relative;
     height: 38.4375em;
     z-index: 2;
@@ -30,6 +31,7 @@ nav{
     display: flex;
     align-items: center;
     background-color transparent;
+    z-index: 5;
 }
 nav li{
     display: inline;
@@ -73,8 +75,45 @@ nav a{
     right: 12.0625em;
     }
 #about{
-    position: relative;
-    background-color: red;
-    height: 100vh;
+    position: absolute;
+    left: 11.5em;
+    bottom: 9.6875em;
+    width: 33.4375em;
+    height: 7.125em;
     z-index: 3;
+}
+#aboutmeheader{
+    font-family: Noto Sans;
+    position: relative;
+    margin: 0;
+    top: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #333333;
+    align-self: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0.75em;
+}
+#aboutmedesc{
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #888888;
+}
+#aboutsection{
+    position: relative;
+    background: url("../images/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 6.9375em;
+    height: 161.875em;
+    z-index: 2;
+
 }
