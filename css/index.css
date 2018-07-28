@@ -75,7 +75,7 @@ nav a{
     height: 35.5625em; 
     z-index: 2;
     bottom: -6.7625em;
-    left: 52.0625em;
+    right: 12.0625em;
     }
 #about{
     position: absolute;
@@ -166,7 +166,7 @@ nav a{
     padding: 0 !important;
     position: absolute;
     top: 4em;
-    left: 46.1875em;
+    right: 12.0625em;
     float: right;
     width: 39.0625em;
     height: 17.1875em;
@@ -185,7 +185,7 @@ nav a{
 }
 .funimage{
     position: absolute;
-    left: 40.375em;
+    right: 12.0625em;
     top: 36.75em;
     width: 43em;
     height: 20em;
