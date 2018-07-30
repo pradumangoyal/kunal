@@ -24,6 +24,9 @@
     float: right;
     margin-top: 15px;
 }
+#navbar .logo{
+    left: 10vw;
+}
 nav{
     transition-duration: 0.5s;
     padding-top: 20px;
@@ -46,6 +49,9 @@ nav a{
 }
 #navbar{
     z-index: 20 !important;
+}
+#navbar .container{
+    width: 85vw;
 }
 .sticky{
     background-color: white;
