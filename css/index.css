@@ -116,8 +116,8 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 6.9375em;
-    height: 161.875em;
-    z-index: 2;
+    height: 106.8125em;
+    z-index: 0;
 
 }
 
@@ -141,7 +141,7 @@ nav a{
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0.0em;
-    line-height: 1.1875em;
+    line-height: 1.5em;
 }
 #aboutsection #aboutmedesc{
     position: relative;
@@ -208,7 +208,7 @@ nav a{
     font-style: normal;
     font-size: 1.5em;
     margin-bottom: 0;
-    line-height: 1.875em;
+    line-height: 1.5em;
 }
 .people #aboutmedesc{
     width: 27.25em !important;
@@ -264,7 +264,6 @@ nav a{
     vertical-align: middle;
 }
 .peoplepicdiv #friend2{
-    margin-left: 3.8125em;
     width: 20em;
 }
 .peoplepicdiv #friend3{
@@ -287,7 +286,7 @@ nav a{
     margin: 0;
     height: 14.0em;
     width: 10.875em;
-    border: 1.5px dotted #78BEFF;
+    border: 1.5px dashed #78BEFF;
     border-radius: 6px;
     font-family: Noto Sans;
     font-style: normal;
@@ -302,6 +301,48 @@ nav a{
 #contact{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background-color: red;
+    width: 100vw;
+    height: 35em;
+    position: relative;
+    background: url('../images/contact_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#contact .contactheader{
+    position: absolute;
+    top: 14.8125rem;
+    margin: 0 auto;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #0A0A0D;
+    width: 100vw;
+}
+#contact .contactdesc{
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5em; 
+    width: 50vw;
+    font-size: 1.5rem;
+    line-height: 2.4375rem;
+    color: #0A0A0D;
+    opacity: 0.5;
+}
+#contact .contactemail{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    color: #78BEFF;
+    margin-top: 1.1875rem;
+}
+.contactemail img{
+    width: 1.875rem;
+    height: 1.375rem;
+    margin-right: 0.5em;
+    vertical-align: middle;
 }
