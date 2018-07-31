@@ -9,6 +9,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- Full Page js-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/easings.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/scrolloverflow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
+
+ 
    
     <!-- Ed Full PAge JS-->
     <!--Semantic & Custom CSS + JS-->
@@ -16,10 +23,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/easings.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/vendors/scrolloverflow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
     <!--End-->
 </head>
 <body>
@@ -112,10 +115,10 @@
         </div>
         <div id="footer">
             <div class="icons">
-                <a href=""><i class="dribbble icon"></i></a>
-                <a href=""><i class="medium m icon"></i></a>
-                <a href=""><i class="linkedin icon"></i></a>
-                <a href=""><i class="behance square icon"></i></a>
+                <a href=""><img src="./images/dripple.svg" class="icon" id="dribble"></a>
+                <a href=""><img src="./images/medium.svg" class="icon right" id="medium"></a>
+                <a href=""><img src="./images/linkedin.svg" class="icon right" id="linkedin"></a>
+                <a href=""><img src="./images/behance.svg" class="icon" id="behance"></a>
             </div>
         </div>
         <script src="./js/index.js"></script>
@@ -125,6 +128,13 @@
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
         
+        $(document).ready(function() {
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+    	});
+
         function myFunction() {
             console.log(sticky+" "+window.pageYOffset);
           if (window.pageYOffset > sticky) {

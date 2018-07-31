@@ -1,0 +1,178 @@
+
+/* site variables*/
+
+#primary.button{
+    background-color: #78BEFF !important;    
+}
+#primary.button.basic{
+       stroke: solid;
+       color:#78BEFF !important;
+       background-color: transparent  !important;
+       box-shadow: 0 0 0 1px #78BEFF inset !important;
+       border-color: #eeeeee !important;
+}
+
+/* Custom CSS */
+#home{
+    overflow: hidden;
+    position: relative;
+    height: 50em;
+    background: url('../images/work_background.svg');
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.group{
+    float: right;
+    margin-top: 15px;
+}
+#navbar .logo{
+    left: 10vw;
+}
+nav{
+    transition-duration: 0.5s;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color transparent;
+    z-index: 20;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 0.75em;
+    color: #333333 !important;
+}
+#navbar{
+    z-index: 20 !important;
+}
+#navbar .container{
+    width: 85vw;
+}
+.sticky{
+    background-color: white;
+    position: fixed;
+    z-index: 20 !important;
+    top: 0;
+    padding: 0;
+    width: 100vw;
+    transition-duration: 0.5s;
+}
+.home{
+    margin-right: 2.25em !important;
+}
+.resume{
+    margin-right: 1.025em !important;
+    margin-left: 2.425em !important;
+}
+.content{
+    margin: 16px;
+}
+.section{
+    height: 100vh;
+}
+/* home section */
+.main{
+    text-align: center;
+}
+/* Contact Part */
+#contact{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 35em;
+    position: relative;
+    background: url('../images/contact_dark.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#contact .contactheader{
+    position: absolute;
+    top: 14.8125rem;
+    margin: 0 auto;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    width: 100vw;
+}
+#contact .contactdesc{
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5em; 
+    width: 50vw;
+    font-size: 1.5rem;
+    line-height: 2.4375rem;
+    color: #ffffff;
+    opacity: 0.5;
+}
+#contact .contactemail{
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    color: #ffffff !important;
+    margin-top: 1.1875rem;
+}
+.contactemail img{
+    width: 1.875rem;
+    height: 1.375rem;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.line{
+    width: 31.875rem;
+    opacity: 0.3;
+    border: 1px solid #ffffff;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin: 0 auto;
+    position: absolute;
+    top: 32.4375em;
+    left: 50vw;
+    margin-left: -15.9375rem;
+}
+
+/*Footer*/
+#footer{
+    width: 100vw;
+    height: 18rem;
+    text-align: center;
+    position: relative;
+    background: #78BEFF;
+}
+#footer .icons{
+    position: absolute;
+    top: 8.25rem;
+    left: 50vw;
+    min-width: 20.5rem;
+    margin-left: -10.25rem;
+    height: 1.375rem;
+}
+#footer .icons .icon{
+    width: 1.375rem;
+    height: 1.375rem;
+    color: #fffff;
+}
+#footer .icons .right{
+    margin-left: 3.1875rem;
+    margin-right: 3.1875rem;
+}
+#dribble{
+    position: absolute;
+    left: 0;
+}
+#behance{
+    position: absolute;
+    right: 0;
+}
