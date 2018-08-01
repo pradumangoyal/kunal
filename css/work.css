@@ -150,6 +150,16 @@ nav a{
     100% { transform: translateY(15px); opacity: 0;}
   }
 /* WORK PART SLIDERS */
+#work{
+    text-align: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.125rem;
+
+    color: rgba(0, 0, 0, 0.7);
+}
 #work .section{
     width: 100vw;
     height: 100vh;
@@ -159,10 +169,14 @@ nav a{
 }
 #work .section:nth-child(odd){
     background: url('../images/odd.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 #work .section:nth-child(even){
     background: url('../images/even.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #work .container{
     display: flex;
@@ -286,6 +300,10 @@ nav a{
     color: #ffffff;
     opacity: 0.5;
 }
+#contact .contactemail a{
+    color: #ffffff !important;
+
+}
 #contact .contactemail{
     font-weight: bold;
     font-size: 1.5rem;
@@ -298,6 +316,30 @@ nav a{
     height: 1.375rem;
     margin-right: 0.5em;
     vertical-align: middle;
+}
+.grey{
+    text-align: center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2.4375rem;
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #AAAAAA;
+
+}
+.dribble-link a{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2.4375rem;
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #78BEFF;
 }
 .line{
     width: 31.875rem;
