@@ -149,7 +149,107 @@ nav a{
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
   }
+/* WORK PART SLIDERS */
+#work .section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#work .section:nth-child(odd){
+    background: url('../images/odd.svg');
 
+}
+#work .section:nth-child(even){
+    background: url('../images/even.svg');
+}
+#work .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 61.75rem;
+    height: 21.8125rem;
+    max-width: 988px;
+    max-height: 349px;
+}
+#work .description{
+    width: 24.3125rem;
+    height: 21.8125rem;
+    max-width: 389px;
+    max-height: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ 
+}
+#work .description .header{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2.5rem;
+    font-size: 1.75rem;
+    color: #222222;
+    margin-bottom: 0.3125rem;
+}
+#work .description .sub-header{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.8125rem;
+    font-size: 1.25rem;    
+    color: #999999;
+    margin-bottom: 1.625rem;
+}
+#work .description .desc{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.375rem;
+    font-size: 0.875rem;
+    color: rgba(17, 17, 17, 0.4);
+    margin-bottom: 3rem;
+}
+#work .description button{
+    border: 1px solid #78BEFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: transparent;
+    width: 13.6875rem;
+    height: 3.0625rem;
+    max-width: 219px;
+    max-height: 49px;
+}
+#work .description .odd-button{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.3125rem;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #78BEFF;
+}
+#work .description .even-button{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.3125rem;
+    font-size: 0.875rem;
+    text-align: center;
+    background-color: #78BEFF;
+    color: white;
+}
+#work image{
+    position: absolute;
+    left: 0;
+}
+#work img{
+    width: 32.5rem;
+    height: 21.625rem;
+    max-height: 346px;
+    max-width: 520px;
+}
 /* Contact Part */
 #contact{
     margin: 0;
