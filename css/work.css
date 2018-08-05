@@ -162,7 +162,7 @@ nav a{
 }
 #work .section{
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,7 +195,7 @@ nav a{
     max-height: 349px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    text-align: left;
  
 }
 #work .description .header{
